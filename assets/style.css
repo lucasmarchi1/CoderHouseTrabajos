@@ -49,6 +49,7 @@ footer a , h3 , h4  {
     border: solid 1px;
     border-radius: 10px;
     margin: 20px;
+    
     text-align: center;
     background-color: blue;
 }
