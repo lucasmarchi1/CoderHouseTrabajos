@@ -5,7 +5,7 @@
 header {
     background-image: url(../assets/img/Fondo\ ppt-1\ \(1\).png);
     width: 100%;
-    height: 400px;
+    height: 600px;
 }  
 
 footer {
@@ -37,6 +37,22 @@ footer a , h3 , h4  {
     margin-left: 1000px;
 }
 
+/* aca empieza el index */
+
+.contenedor__main__index {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+  width: 40%;
+    margin: 40px;
+}
+.contenedor__main__index img {
+    width: 250px;
+}
+
+.h2__main__index {
+    text-align: center;
+}
 
 /*ACA ARRANCA BENEFICIOS*/
 
@@ -44,12 +60,140 @@ footer a , h3 , h4  {
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
-.tarjeta__header__beneficios1 , .tarjeta__header__beneficios2 {
-    border: solid 1px;
+
+.tarjeta__header__beneficios1,
+ .tarjeta__header__beneficios2, 
+.tarjeta__header__beneficios3,
+ .tarjeta__header__beneficios4  
+  { border: solid 1px;
     border-radius: 10px;
-    margin: 20px;
-    
+    margin:50px;
     text-align: center;
-    background-color: blue;
+    justify-content: center;
+    background-color:blue;
+    color:white; 
+}
+
+
+
+.tarjeta__header__beneficios1 :hover {
+     
+    transform: translatey(360);
+     
+}
+.tarjeta__header__beneficios1 img {
+    width: 1%;
+    height: 3px;
+}
+
+.titulo__h1__beneficios{
+    text-align: center;
+    color:white; 
+}
+
+.titulo__h2__beneficios {
+    text-align: center;
+    margin: 20px,0px,20px,0px;
+    
+}
+.parrafo__1__beneficios {
+
+    width: 50%;
+    margin-right: 50%;
+    margin left: 10px;
+}
+.parrafo__2__beneficios {
+width: 50%;
+margin-left: 50%;
+margin 
+}
+
+.parrafo__3__beneficios {
+    width: 50%;
+    margin-right: 50%;
+}
+
+.contenedor__header__proposito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.video__proposito {
+    margin: 25px;
+    
+}
+
+.parrafo__proposito { 
+    color: white;
+    margin: 50px;
+
+}
+
+/* ACA EMPIEZA EL SOBRE NOSOTROS */
+
+.contenedor__header__sobrenosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.tarjeta__header__sobrenosotros1 , .tarjeta__header__sobrenosotros2{
+    border: solid 1px;
+    text-align: center;
+    margin: 35px;
+    width: 30%;
+}
+
+.foto__header__sobrenosotros img {
+  width: 30%;
+  border: solid 1px;
+  margin: 15px;
+      
+}
+
+/* MAIN DE SOBRE NOSOTROS */
+
+.contenedor__main__sobrenosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.contenedor__main__sobrenosotros img {
+    width: 35%;
+    margin: 30px;
+    padding: 20px;
+}
+.contenedor__main__sobrenosotros p {
+    text-align: center;
+
+}
+
+/* ACA EMPIEZA CONTACTOS */
+
+.h1__header__contacto {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+  ;
+
+}
+
+.contenedor__header__contacto { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__header__contacto img {
+    width: 200px;
+    margin: 100px;
 }
